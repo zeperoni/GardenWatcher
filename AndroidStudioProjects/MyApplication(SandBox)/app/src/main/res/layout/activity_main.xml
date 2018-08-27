@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.colinbruzas.myapplicationsandbox.MainActivity">
+
+<RelativeLayout
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    android:orientation="vertical"
+    android:gravity = "center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src= "@drawable/android_party"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/gametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game 1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/buttonplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonPlay"
+        android:layout_above="@id/gametext"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
+        />
+
+    <!-- Displays keyboard when touched -->
+    <EditText
+        android:id="@+id/main_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint"
+        android:inputType="text"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"/>
+
+</RelativeLayout>>
+
+</android.support.constraint.ConstraintLayout>

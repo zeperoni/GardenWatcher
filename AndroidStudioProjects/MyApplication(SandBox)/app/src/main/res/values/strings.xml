@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application (SandBox)</string>
+    <string name="ButtonPlay">Button Toast </string>
+    <string name="Hint">Put it in here</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="act_3">Activity 3 represent</string>
+</resources>

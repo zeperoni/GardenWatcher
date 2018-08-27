@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Garden Watcher</string>
+    <string name="timer_page"></string>
+    <string name="title_activity_timer_">Timer_Activity</string>
+</resources>

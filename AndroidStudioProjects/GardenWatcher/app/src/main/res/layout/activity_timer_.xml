@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bit8gardenpath"
+    tools:context="com.colinbruzas.gardenwatcher.Timer_Activity">
+
+        <TextView
+            android:id="@+id/PlantName"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="65dp"
+            android:padding="20dp"
+            android:text="Your Plants: Click to Water them"
+            android:textColor="@color/primaryWhite"
+            android:textSize="20dp"
+            android:layout_alignParentStart="true"
+/>
+    <Button
+        android:id="@+id/WaterAll"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:padding="20dp"
+        android:text="Click Here To Water All"
+        android:textColor="@color/primaryWhite"
+        android:textSize="20dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Plant"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="P1"
+        android:textColor="@color/primaryWhite"
+        android:textSize="30dp" />
+
+
+
+</RelativeLayout>
