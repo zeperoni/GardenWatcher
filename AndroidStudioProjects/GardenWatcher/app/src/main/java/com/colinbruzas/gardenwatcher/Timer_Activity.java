@@ -8,6 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -23,9 +24,17 @@ public class Timer_Activity extends AppCompatActivity {
         long elapsedSeconds = elapsedTime / 1000;
         long secondsDisplay = elapsedSeconds % 60;
         long elapsedMinutes = elapsedSeconds / 60;
-        };
 
 
+        Button totalWater = (Button) findViewById(R.id.WaterAll);
+        totalWater.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+               Button b = (Button) findViewById(R.id.WaterAll);
+               b.setBackground(getDrawable(R.color.lightPurple));
+            }
+        });
+
+    }
     }
 
    /* private void displayWatered ()
