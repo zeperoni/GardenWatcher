@@ -33,15 +33,28 @@
         android:textColor="@color/primaryWhite"
         android:textSize="20dp" />
 
-    <TextView
-        android:id="@+id/Plant"
+    <Button
+        android:id="@+id/OutdoorPlant"
         android:clickable="true"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="P1"
+        android:text="Outdoor Plant"
         android:textColor="@color/primaryWhite"
+        android:background="@color/lightbrown"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/indoorPlant"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/OutdoorPlant"
+        android:text="Indoor Plant"
+        android:textColor="@color/primaryWhite"
+        android:background="@color/lightbrown"
         android:textSize="30dp" />
 
 
